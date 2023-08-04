@@ -55,6 +55,7 @@
     <!--END NAVBAR-->
 
     <!--HEADER-->
+@include('editobat');
     <div class="container">
         <div class="row">
             <h2 class="text-center" style="font-family: 'Playfair Display'; margin-top:50px;">List Data Obat</h2>

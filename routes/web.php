@@ -31,8 +31,9 @@ Route::get('/showobat', [obatController::class,'showObat']) -> name('showobat');
 Route::get('/addobat', [obatController::class,'tampilObat']) -> name('addobat');
 Route::post('/creat', [obatController::class,'addObat']) -> name('creat');
 
-Route::get('/edit/{id}', [obatController::class,'showEdit']) -> name('edit');
-Route::post('/update/{id}', [obatController::class,'updateObat']) -> name('update');
+Route::get('/showEdit/{id}', [obatController::class,'showEdit']) -> name('showEdit');
+Route::post('/updateObat/{id}', [obatController::class,'updateObat']) -> name('updateObat');
+
 
 Route::get('/delete_obat/{id}',[obatController::class, 'delete']);
 

@@ -36,7 +36,7 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="/addobat">Catat</a></li>
-                            <li><a class="dropdown-item" href="/showobat"name="showobat">Tampil</a></li>
+                            <li><a class="dropdown-item" href="/showobat" name="showobat">Tampil</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -112,6 +112,7 @@
                 </ul>
             </footer>
         </div>
+    </div>
 
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

@@ -38,8 +38,8 @@ class obatController extends Controller
     public function updateObat(Request $request, $id){
         $data = obat::find($id); 
         $data->update($request->all());
-        return view('editobat',compact('data'));
-     
+        return redirect('/showObat');
+
     }
 
     public function delete($id){

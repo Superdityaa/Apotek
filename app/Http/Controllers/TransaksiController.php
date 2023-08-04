@@ -19,7 +19,7 @@ class TransaksiController extends Controller
         $data1 = obat::all();
         return view('addtransaksi',compact('data','data1'));
     }
-     
+    
     public function addTransaksi(Request $request){
         transaksi::create([
             'nama_pembeli'=>$request->nama_pembeli,
